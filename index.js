@@ -23,7 +23,7 @@ app.set('views',path.join(__dirname,'/views'));
 
 app.get('/',(req,res)=>{
     if(req.query.busca == null){
-        res.send("Home");
+        res.render('home',{})
     }else
     {res.send("Você buscou  " + req.query.busca)}
 })

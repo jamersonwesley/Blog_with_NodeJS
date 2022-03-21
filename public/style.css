@@ -8,7 +8,7 @@ header{
     background-color: #5F05B9;
 }
 .center{
-    max-width: 1100px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
     display: flex;
@@ -25,7 +25,7 @@ header{
 }
 .form-busca form{
     display: inline-block;
-    max-width: 200px;
+    width: 200px;
     position: relative;
 }
 .form-busca i{
@@ -43,6 +43,7 @@ header{
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
+    max-width: 200px;
 }
 input::placeholder {
     color: #fff;
@@ -82,4 +83,49 @@ input::placeholder {
       background-color: rgba(0, 0,0,0.4);
       z-index: 1;
       border-radius: 20px;
+  }
+  section.outras-noticias{
+    background-color: #EAEAEA;
+    padding: 50px 20px;
+    text-align: center;
+
+  }
+  section.outras-noticias h2{
+      font-size: 54px;
+  }
+  .ultimas{
+      width: 70%;
+      padding: 0 30px;
+      display: flex;
+  }
+  .mais-lidas{
+      width: 30%;
+  }
+  .box-ultima-single{
+      text-align: left;
+      width: 49%;
+      margin-right: 1%;
+      background-color: #fff;
+      padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+      height: 100%;
+  }
+  .box-ultima-single img{
+      width: 100%; 
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  .mais-lidas > h3{
+      background-color: #5F05B9;
+      color: #EAEAEA;
+      text-align: center;
+      padding: 10px 8px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  .box-ultima-single h3{
+    font-size: 16px;
+    margin: 20px 0;
+    color: #303336
   }

@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
     if(req.query.busca == null){
         res.render('home',{})
     }else
-    {res.send("Você buscou  " + req.query.busca)}
+    {res.render('single',{})}
 })
 
 app.get('/:slug',(req,res)=>{

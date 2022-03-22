@@ -98,9 +98,6 @@ input::placeholder {
       padding: 0 30px;
       display: flex;
   }
-  .mais-lidas{
-      width: 30%;
-  }
   .box-ultima-single{
       text-align: left;
       width: 49%;
@@ -124,7 +121,9 @@ input::placeholder {
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
   }
-
+.noticia-single{
+    width: 70%;
+}
   .box-ultima-single h3{
     font-size: 16px;
     margin: 20px 0;
@@ -132,6 +131,8 @@ input::placeholder {
   }
   .mais-lidas{
     background-color:#fff ;
+    width: 30%;
+    height: 100%;
 }
 .mais-lidas img{
     width: 100%;

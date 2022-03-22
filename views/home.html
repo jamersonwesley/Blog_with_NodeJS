@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevSocialMedia</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="/public/style.css" rel="stylesheet" />
-</head>
-<body>
-    <header>
-        <div class="center">
-            <div class="logo">
-                    <h2><span style="font-weight: lighter;">Social</span><b>Media</b></h2>
-            </div>
-            <div class="form-busca">
-                <form>
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="text" name="busca" placeholder="Buscar...">
-                </form>
-            </div>
-        </div>
-
-    </header>
+<%- include('partials/header.html')%>
     <section class="noticia-destaque">
             <div class="center">
                 <div class="img-destaque">
@@ -93,5 +67,6 @@
             
         </div>
     </section>
+    <%- include('partials/footer.html')%>
 </body>
 </html>

@@ -133,3 +133,6 @@ input::placeholder {
   .mais-lidas{
     background-color:#fff ;
 }
+.mais-lidas img{
+    width: 100%;
+}
